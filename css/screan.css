@@ -1,0 +1,8 @@
+@media screen  and (max-width :900px){
+    .right , .left{
+        width: 90%;
+    }
+    .land img{
+        object-position:50% 50% ;
+    }
+}

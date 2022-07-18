@@ -1,0 +1,331 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0; margin: 0;
+}
+.img{
+    position: absolute;
+    top: 0;left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+/*=======================================*/
+.links{
+    background-color: black;
+    color: white;
+}
+.links i{
+    padding: 8px 10px;
+}
+.links i:hover{
+    background-color: white;
+    color: black;
+}
+
+/*==========title==================================*/
+.title{
+    text-align: center;
+    height: 200px;
+    padding: 50px;
+    border: 1px solid black;
+}
+.title h1 {
+    padding: 10px;
+}
+.title h1{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px;
+}
+.title span{
+    color: white;
+    background-color: black;
+    padding: 3px;
+}
+/*========== land ============*/
+.land{
+    position: relative;
+    height: 700px;
+}
+.land img{
+    object-position: 0% 0%;
+}
+.land .in-land{
+    position: absolute;
+    top: 50%;
+    transform: translate3d(-50%);
+    color: white;
+    padding: 0 30px;
+}
+.land h1{
+    padding: 18px 0;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.land h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.land button{
+    border: none;
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    font-size: 18px;
+    user-select: none;
+    cursor: pointer;
+}
+.land button:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+/*=======main===========*/
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ddd;
+    padding-top: 30px;
+}
+.con{
+    background-color: white;
+}
+.right{
+    width: 63%;
+}
+.con-1{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.con-1 img{
+    
+    padding: 25px 10px;
+}
+.con-1 h1 {
+    margin-top: 10px;
+    font-size: x-large;
+}
+.con-1 h2{
+    font-size: medium;
+    margin: 8px ;
+}
+.con-1 span{
+    color: rgba(0, 0, 0, 0.5);
+}
+.con-1 .text{
+    padding: 25px 10px;
+    text-align: left;
+}
+.con-1 p{
+    padding: 5px 0;
+    line-height: 150%;
+}
+.con-1 .btn::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.con-1 .btn{
+    padding: 10px ;
+}
+.con-1 .like{
+    float: left;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: white;
+}
+.con-1 .like:hover{
+    background-color: #ddd;
+}
+.con-1 .left-button{
+    float: right;
+    padding: 10px 14px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.con-1 .left-button span{
+    background-color: white ;
+    padding: 4px 7px;
+    margin-left: 6px;
+    color: black ;
+}
+.con-1 .left-button:hover{
+    background-color: #ccc;
+    border: none;
+    color:black 
+}
+.con-1 hr{
+    color: #ddd;
+    margin: 15px 0 ; 
+}
+.poster{
+    display: flex;
+    padding: 0 10px;
+}
+.poster .photo{
+    position: relative;
+    width: 15%; height: 130px;
+}
+.poster .about-photo{
+    padding : 20px 0 0 20px ;
+}
+/*=========left =========*/
+.left{
+     width: 30%;
+}   
+.post-1{
+    width: 100%;
+    background-color: black;
+   color: white;
+   height: auto;
+}
+.post-1 .image{
+    height: 200px;
+    position: relative;
+}
+.post-1 img{
+    opacity: 0.6;
+}
+.post-1 .text-img{
+    height: auto;
+    padding: 5px 10px;
+}
+.post-1 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    padding-top: 10px;
+}
+.post-1 .text-img p{
+    padding: 5px 0;
+    font-size: 15px;
+    line-height: 140%;
+}
+.post-2{
+    height: auto;
+    margin:  30px 0 ;
+}
+.tag{
+    height: 50px;
+}
+ .tag-1{
+    background-color: black;
+    color: white;
+}
+.tag-1 p{
+  font-size: large;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.post-2 h2{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.post-2 .tag-{
+    height: 75px;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+}
+.post-2 .dev-img{
+    width: 15%;
+    position: relative;
+    margin-right: 15px;
+}
+.post-3{
+    background-color: white;
+}
+.post-3 .ad{
+    padding: 15px;
+}
+.post-3 .ad-{
+    position: relative;
+    background-color: #ddd;
+    height: 180px;
+}
+.post-3 .ad- p{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.post-4{
+    padding-top: 25px;
+}
+.post-4 .photos{
+    padding: 15px;
+    height: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    background-color: white;
+}
+.post-4 .p{
+    width: 45%;  height: 100px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.post-5{
+    padding-top: 25px;
+}
+.post-5 .follow{
+    background-color: white;
+}
+.post-5 i{
+    padding: 12px 7px; 
+    cursor: pointer;
+}
+.post-5 i:hover{
+    background-color: #ddd;
+}
+.post-6{
+    padding-top: 25px;
+}
+.post-6 .form{
+    background-color: white;
+    padding: 15px 10px;
+}
+.post-6 input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
+.post-6 .text{
+    margin-top:15px ;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.post-6 .submit{
+    background: linear-gradient(90deg,red ,blue) ;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(97, 97, 97);
+    padding: 50px
+}
+footer h1{
+    float: left;
+}
+footer button{
+    float: right;
+    padding: 12px 14px;
+    border: none;
+}
+footer button:hover{
+    background-color: #ddd;
+}
