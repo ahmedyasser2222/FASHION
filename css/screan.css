@@ -12,4 +12,10 @@
         float: left;
         margin-top: 15px;
     }
+     .poster .photo{
+        width: 25%;
+    }
+    .poster {
+        font-size: 15px;
+    }
 }
