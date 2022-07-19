@@ -5,4 +5,11 @@
     .land img{
         object-position:50% 50% ;
     }
+    footer h1{
+        font-size: larger;
+    }
+    footer button {
+        float: left;
+        margin-top: 15px;
+    }
 }
