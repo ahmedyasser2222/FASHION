@@ -318,8 +318,16 @@ footer {
     background-color: rgba(97, 97, 97);
     padding: 50px
 }
+footer::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 footer h1{
     float: left;
+    ont-size: xx-large;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer button{
     float: right;
